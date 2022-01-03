@@ -1,0 +1,22 @@
+{
+    "name": "geoextract-nl",
+    "version": "1.0.0",
+    "description": "Extraction of valuable geodata from BAG supplied xml files",
+    "scripts": {
+        "etl": "node extractor"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "fs-extra": "^10.0.0",
+        "glob": "^7.1.7",
+        "he": "^1.2.0",
+        "lodash": "^4.17.21",
+        "mongoose": "^5.13.3",
+        "mongoose-geojson-schema": "^2.1.7",
+        "node-cmd": "^5.0.0",
+        "proj4": "^2.7.5",
+        "workerpool": "^6.1.5"
+    }
+}
